@@ -1,8 +1,8 @@
 body {
-    background: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     padding: 10px;
-    font-family: comic 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #all-contents {
   max-width: 800px;
@@ -11,7 +11,7 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(0, 0, 0);
+    background: rgb(170, 163, 142);
    margin: 0 auto;
    margin-bottom: 20px;
     display: flex;
@@ -20,7 +20,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     flex: 1;
     margin: 0;
 }
@@ -38,7 +38,7 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
     display: flex;
 }
 .sidebar {
