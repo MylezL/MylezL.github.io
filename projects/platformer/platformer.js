@@ -45,7 +45,7 @@ createPlatform(450,400,70,30)
 createPlatform(700,275,100,30)
 createPlatform(900,200,70,30)
 createPlatform(1100,200,70,30)
-
+createPlatform(1300,200,70,30)
     // TODO 2
     // Create collectables
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
@@ -53,6 +53,9 @@ createPlatform(1100,200,70,30)
     // example usage: createCollectable(type, x, y, gravity, bounce)
 
 
+createCollectable('grace',300,200,3)
+createCollectable('steve',450,350,2)
+createCollectable('diamond',1300,150,2)
 
     
     // TODO 3
@@ -61,9 +64,9 @@ createPlatform(1100,200,70,30)
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
 
-
-
-    
+createCannon('left',400,1000,100)
+createCannon('right',600,3000,100)
+createCannon('left',100,900,100)
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
     /////////////////////////////////////////////////
